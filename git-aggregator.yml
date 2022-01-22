@@ -1,0 +1,10 @@
+./sale-workflow:
+    defaults:
+        depth: 20
+    remotes:
+      origin: https://github.com/OCA/sale-workflow.git
+      juanp: https://github.com/juanpgarza/sale-workflow.git
+    merges:
+        - origin 15.0
+        - origin refs/pull/1861/head
+    target: juanp 15.0-agg
